@@ -1,132 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Geritch</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet" />
-</head>
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="container">
-            <!--Logo-->
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank" class="nav__list-link">Home</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank" class="nav__list-link">Pages</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank" class="nav__list-link">Contact Us</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank" class="nav__list-link">Blog</a>
-                    </li>
-                    <li class="nav__list-item">
-                        <a href="#" target="_blank" class="nav__list-link">Landing</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="registration">
-                <li class="header__registration-item">Login In /</li>
-                <li class="header__registration-item">Registration</li>
-                <li class="header__registration-item">Book Table</li>
-            </ul>
-        </div>
+      <div class="container">
+        <!--Logo-->
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav__list-item">
+              <a href="#" target="_blank" class="nav__list-link">Home</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" target="_blank" class="nav__list-link">Pages</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" target="_blank" class="nav__list-link">Contact Us</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" target="_blank" class="nav__list-link">Blog</a>
+            </li>
+            <li class="nav__list-item">
+              <a href="#" target="_blank" class="nav__list-link">Landing</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="registration">
+          <li class="header__registration-item">Login In /</li>
+          <li class="header__registration-item">Registration</li>
+          <li class="header__registration-item">Book Table</li>
+        </ul>
+      </div>
     </header>
 
     <main>
-        <section class="hero">
-            <div class="container">
-                <div class="heshteg">
-                    <p class="heshteg-text">#Bar</p>
-                    <p class="heshteg-text">#Geritch</p>
-                </div>
-                <p class="hero-subtitle">Chase The New Favour</p>
-                <h1 class="hero-title">The Key To Fine Dining</h1>
-                <p class="hero-description">
-                    Sit tellus lobortis sed senectus vivamus molestie. Condimentum
-                    volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
-                    aliquam amet tellus
+      <section class="hero">
+        <div class="container">
+          <div class="heshteg">
+            <p class="heshteg-text">#Bar</p>
+            <p class="heshteg-text">#Geritch</p>
+          </div>
+          <p class="hero-subtitle">Chase The New Favour</p>
+          <h1 class="hero-title">The Key To Fine Dining</h1>
+          <p class="hero-description">
+            Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+            volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+            aliquam amet tellus
+          </p>
+          <button type="button" class="hero-btn">Explore Menu</button>
+          <p class="hero-number">01 02 03 04</p>
+          <div class="scroll">
+            <p class="scroll-text">scroll</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us">
+        <div class="container">
+          <h2 class="about-us-title">About us</h2>
+          <p class="about-us-info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+            pharetra adipiscing ultrices vulputate posuere tristique. In sed
+            odio nec aliquet eu proin mauris et.
+          </p>
+          <button type="button" class="about-us-btn">Know More</button>
+
+          <h2 class="about-us-title">Our Histotry</h2>
+          <p class="about-us-info">
+            Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
+            Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
+            odio nec aliquet.
+          </p>
+          <button type="button" class="about-us-btn">Know More</button>
+        </div>
+      </section>
+
+      <section class="book-tabel">
+        <div class="container">
+          <p class="book-subtitle">Registration</p>
+          <h2 class="book-title">Book a Tabel</h2>
+          <form class="form">
+            <select name="select-person" id="select-person" class="form-input">
+              <option value="1">1 Person</option>
+              <option value="2">2 People</option>
+              <option value="3">3 People</option>
+              <option value="4">More than 3</option>
+            </select>
+
+            <select name="select-date" id="select-date" class="form-input">
+              <option value="1">12/05/2021</option>
+              <option value="2">21/05/2021</option>
+              <option value="3">30/05/2021</option>
+              <option value="4">01/06/2021</option>
+            </select>
+
+            <select name="select-time" id="select-date" class="form-input">
+              <option value="1">11:00AM</option>
+              <option value="2">12:00AM</option>
+              <option value="3">13:00AM</option>
+              <option value="4">14:00AM</option>
+            </select>
+            <button class="form-btn">Book Now</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="navigation">
+        <div class="container">
+          <ul class="navigation-list">
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-link">Bar Menu</a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-link">Food Menu</a>
+            </li>
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-link">Desserts Menu</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu">
+        <div class="container">
+          <p class="menu-subtitle">Menu That fits You Palatte</p>
+          <h2 class="menu-title">Today Special</h2>
+          <div class="detailed-menu">
+            <div class="info-menu">
+              <h2 class="detailed-menu-title">Wine & Beer</h2>
+              <ul class="menu-list">
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Chapel Hill Shiraz</a>
+                  <p class="menu-cost">$56</p>
+                  <p class="menu-liter">
+                    <span class="menu-span">AU </span>Bottle
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Catena Malbee</a>
+                  <p class="menu-cost">$59</p>
+                  <p class="menu-liter">
+                    <span class="menu-span">AR </span>Bottle
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">La Vieille Rose</a>
+                  <p class="menu-cost">$44</p>
+                  <p class="menu-liter">
+                    <span class="menu-span">FR </span>750ml
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Rhino Pale Ale</a>
+                  <p class="menu-cost">$31</p>
+                  <p class="menu-liter">
+                    <span class="menu-span">CA </span>750ml
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Irish Guinnsess</a>
+                  <p class="menu-cost">$26</p>
+                  <p class="menu-liter">
+                    <span class="menu-span">IE </span>750ml
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="info-menu">
+              <h2 class="detailed-menu-title">Cocktails</h2>
+              <ul class="menu-list">
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Aperol Spiritz</a>
+                  <p class="menu-cost">$20</p>
+                  <p class="menu-ingredients">
+                    <span class="menu-span">Aperlo </span>
+                    <span class="menu-span">Villa Marchesi prosecco</span>
+                    <span class="menu-span">soda </span> 30ml
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Dark 'N' Stormy </a>
+                  <p class="menu-cost">$16</p>
+                  <p class="menu-ingredients">
+                    <span class="menu-span">Dark rum </span>
+                    <span class="menu-span">Ginger beer</span>
+                    Slice of lime.
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Daiquiri</a>
+                  <p class="menu-cost">$10</p>
+                  <p class="menu-ingredients">
+                    <span class="menu-span">Rum</span>
+                    <span class="menu-span">Cirtus juice</span>
+                    sugar
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Old Fashioned</a>
+                  <p class="menu-cost">$31</p>
+                  <p class="menu-ingredients">
+                    <span class="menu-span">Bourbon </span>
+                    <span class="menu-span">Brown sugar</span>
+                    Angostura
+                  </p>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">Negroni</a>
+                  <p class="menu-cost">$26</p>
+                  <p class="menu-ingredients">
+                    <span class="menu-span">Gin </span>
+                    <span class="menu-span">Sweet Vermouth</span>
+                    <span class="menu-span">Campari </span>
+                    Orange garnish
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <button class="menu-btn">View more</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="chef">
+        <div class="container">
+          <p class="position">Chef's Word</p>
+          <h2 class="chef-title">What We Believe In</h2>
+          <p class="chef-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
+            auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget
+            sit. Nulla scelerisque scelerisque congue ac consequat, aliquam
+            molestie lectus eu. Congue iaculis integer curabitur semper sit
+            nunc.
+          </p>
+          <h2 class="chef-name">Kevin Luo</h2>
+          <p class="chef-position">Chef & Founder</p>
+        </div>
+      </section>
+
+      <section class="customers">
+        <div class="container">
+          <p class="customers-chapter">Testimory</p>
+          <h2 class="customers-title">Happy Customers</h2>
+
+          <ul class="customers-list">
+            <li class="customers__list-item">
+              <div class="customers__list-box">
+                <p class="customers__list-comment">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
                 </p>
-                <button type="button" class="hero-btn">Explore Menu</button>
-                <p class="hero-number">01 02 03 04</p>
-                <div class="scroll">
-                    <p class="scroll-text">scroll</p>
-                </div>
-            </div>
-        </section>
+                <h2 class="customers__list-name">Wade Warren</h2>
+                <p class="customers__list-position">Sommelier</p>
+              </div>
+            </li>
 
-        <section class="about-us">
-            <div class="container">
-                <h2 class="about-us-title">About us</h2>
-                <p class="about-us-info">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
-                    pharetra adipiscing ultrices vulputate posuere tristique. In sed
-                    odio nec aliquet eu proin mauris et.
+            <li class="customers__list-item">
+              <div class="customers__list-box">
+                <p class="customers__list-comment">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
                 </p>
-                <button type="button" class="about-us-btn">Know More</button>
+                <h2 class="customers__list-name">Jane Cooper</h2>
+                <p class="customers__list-position">Chef</p>
+              </div>
+            </li>
 
-                <h2 class="about-us-title">Our Histotry</h2>
-                <p class="about-us-info">
-                    Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
-                    Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
-                    odio nec aliquet.
+            <li class="customers__list-item">
+              <div class="customers__list-box">
+                <p class="customers__list-comment">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
                 </p>
-                <button type="button" class="about-us-btn">Know More</button>
-            </div>
-        </section>
+                <h2 class="customers__list-name">Rober Fox</h2>
+                <p class="customers__list-position">Chef</p>
+              </div>
+            </li>
 
-        <section class="book-tabel">
-            <div class="container">
-                <p class="book-subtitle">Registration</p>
-                <h2 class="book-title">Book a Tabel</h2>
-                <form class="form">
-                    <select name="select-person" id="select-person" class="form-input">
-                        <option value="1">1 Person</option>
-                        <option value="2">2 Person</option>
-                        <option value="3">3 Person</option>
-                        <option value="4">More than 3</option>
-                    </select>
+            <li class="customers__list-item">
+              <div class="customers__list-box">
+                <p class="customers__list-comment">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor
+                  sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit.
+                  Nulla scelerisque scelerisque congue.
+                </p>
+                <h2 class="customers__list-name">Brooklyn Simmons</h2>
+                <p class="customers__list-position">Caterer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-                    <select name="select-date" id="select-date" class="form-input">
-                        <option value="1">12/05/2021</option>
-                        <option value="2">21/05/2021</option>
-                        <option value="3">30/05/2021</option>
-                        <option value="4">01/06/2021</option>
-                    </select>
-
-                    <select name="select-time" id="select-date" class="form-input">
-                        <option value="1">11:00AM</option>
-                        <option value="2">12:00AM</option>
-                        <option value="3">13:00AM</option>
-                        <option value="4">14:00AM</option>
-                    </select>
-                    <button class="form-btn">Book Now</button>
-                </form>
-            </div>
-        </section>
-
-        <section class="menu">
-            <div class="container">
-                <ul class="menu-list">
-                    <li class="menu__list-item"><a href="#" class="menu__list-link">Bar Menu</a></li>
-                    <li class="menu__list-item"><a href="#" class="menu__list-link">Food Menu</a></li>
-                    <li class="menu__list-item"><a href="#" class="menu__list-link">Desserts Menu</a></li>
-                </ul>
-            </div>
-        </section>
+      <section class="video">
+        
+      </section>
     </main>
 
     <footer class="footer"></footer>
-</body>
-
+  </body>
 </html>
