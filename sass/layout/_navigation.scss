@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  align-items: center;
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: 270px;
+    .nav__list-item:not(:last-child) {
+      margin-right: 30px;
+      &:nth-child(3) {
+        width: 88px;
+      }
+    }
+    .nav__list-link {
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: $white-color;
+    }
+  }
+}
+.registration {
+  display: flex;
+  .header__registration-item {
+    margin-right: 50px;
+  }
+  .registration__list-link {
+    font-family: $second-family;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: $white-color;
+  }
+}
