@@ -1,0 +1,75 @@
+.hero {
+  position: relative;
+  background-color: $black-color;
+  padding-top: 127px;
+  padding-bottom: 147px;
+  .heshteg {
+    position: absolute;
+    left: 120px;
+    top: 457px;
+    display: flex;
+    transform: rotate(90deg);
+    .heshteg-text {
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      color: $white-color;
+      margin-right: 40px;
+    }
+  }
+  .hero-subtitle {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: $white-color;
+    margin-top: 127px;
+  }
+  .hero-title {
+    width: 453px;
+    height: 290px;
+    font-weight: 700;
+    font-size: 89px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: $text-color;
+  }
+  .hero-description {
+    width: 453px;
+    font-family: $second-family;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #aaa;
+  }
+  .hero-img {
+    margin-left: 180px;
+  }
+}
+
+.about-us {
+  background: url("../../images/background-geritch.jpg") no-repeat;
+  padding-top: 120px;
+  padding-bottom: 136px;
+  .about-us-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #dcca87;
+  }
+  .about-us-info {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    width: 523px;
+    color: #aaa;
+  }
+}

@@ -39,6 +39,19 @@ body {
   font-family: "Cormorant Upright", sans-serif;
 }
 
+.hero-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  padding: 8px 32px;
+  background-color: #dcca87;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0b08;
+  margin-top: 32px;
+}
+
 .container {
   width: 1300px;
   padding: 0 15px;
@@ -46,6 +59,14 @@ body {
 }
 
 .header-container {
+  display: flex;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.about-container {
   display: flex;
 }
 
@@ -93,4 +114,80 @@ body {
 .header .header-logo {
   margin-right: 437px;
   margin-left: 120px;
+}
+
+.hero {
+  position: relative;
+  background-color: #000;
+  padding-top: 127px;
+  padding-bottom: 147px;
+}
+.hero .heshteg {
+  position: absolute;
+  left: 120px;
+  top: 457px;
+  display: flex;
+  transform: rotate(90deg);
+}
+.hero .heshteg .heshteg-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-right: 40px;
+}
+.hero .hero-subtitle {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 127px;
+}
+.hero .hero-title {
+  width: 453px;
+  height: 290px;
+  font-weight: 700;
+  font-size: 89px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+.hero .hero-description {
+  width: 453px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #aaa;
+}
+.hero .hero-img {
+  margin-left: 180px;
+}
+
+.about-us {
+  background: url("../../images/background-geritch.jpg") no-repeat;
+  padding-top: 120px;
+  padding-bottom: 136px;
+}
+.about-us .about-us-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+.about-us .about-us-info {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  width: 523px;
+  color: #aaa;
 }/*# sourceMappingURL=main.css.map */
