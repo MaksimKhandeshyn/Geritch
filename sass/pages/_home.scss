@@ -50,11 +50,16 @@
     margin-left: 180px;
   }
 }
-
 .about-us {
   background: url("../../images/background-geritch.jpg") no-repeat;
   padding-top: 120px;
   padding-bottom: 136px;
+  .about {
+    margin-right: 74px;
+    .about-us-name, .about-us-text {
+      text-align: right;
+    }
+  }
   .about-us-title {
     font-weight: 600;
     font-size: 64px;
@@ -71,5 +76,8 @@
     letter-spacing: 0.04em;
     width: 523px;
     color: #aaa;
+  }
+  .history {
+    margin-left: 74px;
   }
 }

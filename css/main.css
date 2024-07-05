@@ -52,6 +52,22 @@ body {
   margin-top: 32px;
 }
 
+.about-us-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  padding: 8px 32px;
+  background-color: #dcca87;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0b08;
+}
+
+.know-more {
+  margin-left: 377px;
+}
+
 .container {
   width: 1300px;
   padding: 0 15px;
@@ -68,6 +84,7 @@ body {
 
 .about-container {
   display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -174,6 +191,12 @@ body {
   padding-top: 120px;
   padding-bottom: 136px;
 }
+.about-us .about {
+  margin-right: 74px;
+}
+.about-us .about .about-us-name, .about-us .about .about-us-text {
+  text-align: right;
+}
 .about-us .about-us-title {
   font-weight: 600;
   font-size: 64px;
@@ -190,4 +213,7 @@ body {
   letter-spacing: 0.04em;
   width: 523px;
   color: #aaa;
+}
+.about-us .history {
+  margin-left: 74px;
 }/*# sourceMappingURL=main.css.map */
