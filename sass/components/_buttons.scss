@@ -24,3 +24,27 @@
 .know-more {
   margin-left: 377px;
 }
+.form-btn {
+  border: 1px solid #dcca87;
+  padding: 8px 32px;
+  background: $text-color;
+  font-family: $font-family;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0c0c;
+  margin-top: 60px;
+  margin-left: 590px;
+}
+.menu-btn {
+  font-family: $font-family;
+  padding: 8px 32px;
+  background-color: $text-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0c0c;
+  border: none;
+}

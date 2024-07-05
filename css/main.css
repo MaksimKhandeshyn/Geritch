@@ -68,6 +68,32 @@ body {
   margin-left: 377px;
 }
 
+.form-btn {
+  border: 1px solid #dcca87;
+  padding: 8px 32px;
+  background: #dcca87;
+  font-family: "Cormorant Upright", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0c0c;
+  margin-top: 60px;
+  margin-left: 590px;
+}
+
+.menu-btn {
+  font-family: "Cormorant Upright", sans-serif;
+  padding: 8px 32px;
+  background-color: #dcca87;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #0c0c0c;
+  border: none;
+}
+
 .container {
   width: 1300px;
   padding: 0 15px;
@@ -127,6 +153,8 @@ body {
 .header {
   background-color: #000;
   display: flex;
+  padding-top: 46px;
+  padding-bottom: 47px;
 }
 .header .header-logo {
   margin-right: 437px;
@@ -189,12 +217,13 @@ body {
 .about-us {
   background: url("../../images/background-geritch.jpg") no-repeat;
   padding-top: 120px;
-  padding-bottom: 136px;
+  padding-bottom: 124px;
 }
 .about-us .about {
   margin-right: 74px;
 }
-.about-us .about .about-us-name, .about-us .about .about-us-text {
+.about-us .about .about-us-name,
+.about-us .about .about-us-text {
   text-align: right;
 }
 .about-us .about-us-title {
@@ -216,4 +245,138 @@ body {
 }
 .about-us .history {
   margin-left: 74px;
+}
+
+.book-tabel {
+  padding-top: 157px;
+  padding-bottom: 150px;
+  background: #000;
+  position: relative;
+}
+.book-tabel .logo-icon {
+  position: absolute;
+  right: 151px;
+  bottom: 680px;
+}
+.book-tabel .form {
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  padding: 48px 32px;
+  width: 1364px;
+  height: 466px;
+  box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+  background: #0c0c0c;
+}
+.book-tabel .form .book-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.book-tabel .form .book-subtitle {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: center;
+}
+.book-tabel .form .book-title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #dcca87;
+}
+.book-tabel .form .form-input {
+  width: 412px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #aaa;
+  border: 1px solid #f5efdb;
+  background: transparent;
+  margin-right: 18px;
+  padding-left: 16px;
+  margin-top: 64px;
+}
+
+.navigation {
+  background: url("../../images/bg-navigation.jpg");
+  padding-top: 260px;
+  padding-bottom: 260px;
+  position: relative;
+}
+.navigation .logo-icon {
+  position: absolute;
+  top: -25px;
+}
+.navigation .navigation__list-item:nth-child(2) {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+.navigation .navigation__list-link {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.navigation .navigation__list-link:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  background-color: #000;
+  padding-top: 152px;
+  padding-bottom: 152px;
+}
+.menu .menu-subtitle {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+}
+.menu .menu-icon {
+  margin-left: 630px;
+}
+.menu .menu-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #dcca87;
+}
+.menu .detailed-menu {
+  display: flex;
+}
+.menu .detailed-menu .menu__list-link,
+.menu .detailed-menu .menu-cost {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+.menu .detailed-menu .menu-cost {
+  color: #fff;
+}
+.menu .detailed-menu .menu-liter {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #aaa;
 }/*# sourceMappingURL=main.css.map */

@@ -53,10 +53,11 @@
 .about-us {
   background: url("../../images/background-geritch.jpg") no-repeat;
   padding-top: 120px;
-  padding-bottom: 136px;
+  padding-bottom: 124px;
   .about {
     margin-right: 74px;
-    .about-us-name, .about-us-text {
+    .about-us-name,
+    .about-us-text {
       text-align: right;
     }
   }
@@ -79,5 +80,138 @@
   }
   .history {
     margin-left: 74px;
+  }
+}
+.book-tabel {
+  padding-top: 157px;
+  padding-bottom: 150px;
+  background: $black-color;
+  position: relative;
+  .logo-icon {
+    position: absolute;
+    right: 151px;
+    bottom: 680px;
+  }
+  .form {
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    padding: 48px 32px;
+    width: 1364px;
+    height: 466px;
+    box-shadow: 22px 30px 95px 1px rgba(0, 0, 0, 0.7);
+    background: #0c0c0c;
+    .book-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .book-subtitle {
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      color: $white-color;
+      text-align: center;
+    }
+    .book-title {
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 130%;
+      letter-spacing: 0.03em;
+      text-transform: capitalize;
+      text-align: center;
+      color: $text-color;
+    }
+    .form-input {
+      width: 412px;
+      height: 60px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: #aaa;
+      border: 1px solid #f5efdb;
+      background: transparent;
+      margin-right: 18px;
+      padding-left: 16px;
+      margin-top: 64px;
+    }
+  }
+}
+
+.navigation {
+  background: url("../../images/bg-navigation.jpg");
+  padding-top: 260px;
+  padding-bottom: 260px;
+  position: relative;
+  .logo-icon {
+    position: absolute;
+    top: -25px;
+  }
+  .navigation__list-item:nth-child(2) {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .navigation__list-link {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: $white-color;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.menu {
+  background-color: $black-color;
+  padding-top: 152px;
+  padding-bottom: 152px;
+  .menu-subtitle {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: $white-color;
+    text-align: center;
+  }
+  .menu-icon {
+    margin-left: 630px;
+  }
+  .menu-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    text-align: center;
+    color: $text-color;
+  }
+  .detailed-menu {
+    display: flex;
+    .menu__list-link,
+    .menu-cost {
+      font-weight: 700;
+      font-size: 23px;
+      line-height: 130%;
+      letter-spacing: 0.04em;
+      text-transform: capitalize;
+      color: $text-color;
+    }
+    .menu-cost {
+      color: $white-color;
+    }
+    .menu-liter {
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 175%;
+      letter-spacing: 0.04em;
+      text-align: center;
+      color: #aaa;
+    }
   }
 }
