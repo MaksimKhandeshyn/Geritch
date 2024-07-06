@@ -181,7 +181,6 @@
     margin-left: 630px;
   }
   .menu-title {
-    font-family: var(--font-family);
     font-weight: 600;
     font-size: 64px;
     line-height: 130%;
@@ -192,26 +191,74 @@
   }
   .detailed-menu {
     display: flex;
-    .menu__list-link,
-    .menu-cost {
-      font-weight: 700;
-      font-size: 23px;
-      line-height: 130%;
-      letter-spacing: 0.04em;
-      text-transform: capitalize;
-      color: $text-color;
+    justify-content: center;
+    margin-top: 64px;
+    .info-menu {
+      margin-right: 32px;
+      .detailed-menu-title {
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-transform: capitalize;
+        text-align: center;
+        color: $white-color;
+        margin-bottom: 40px;
+      }
+      .menu__list-item {
+        width: 412px;
+        height: 66px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        .menu__list-link,
+        .menu-cost {
+          font-weight: 700;
+          font-size: 23px;
+          line-height: 130%;
+          letter-spacing: 0.04em;
+          color: $text-color;
+          height: 30px;
+        }
+        .menu-cost {
+          color: $white-color;
+        }
+        .menu__list-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: context-menu;
+          &::after {
+            content: "";
+            display: block;
+            width: 119px;
+            height: 1px;
+            background: #fafafa;
+            margin-left: 32px;
+            margin-right: 32px;
+          }
+        }
+        .menu-liter {
+          font-family: $second-family;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 175%;
+          letter-spacing: 0.04em;
+          text-align: center;
+          color: #aaa;
+        }
+      }
     }
-    .menu-cost {
-      color: $white-color;
-    }
-    .menu-liter {
-      font-family: $second-family;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 175%;
-      letter-spacing: 0.04em;
-      text-align: center;
-      color: #aaa;
+    .cocktails {
+      margin-left: 32px;
+      .menu-ingredients {
+        font-family: $second-family;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        letter-spacing: 0.04em;
+        color: #aaa;
+      }
     }
   }
 }

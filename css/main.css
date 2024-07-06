@@ -92,6 +92,9 @@ body {
   letter-spacing: 0.04em;
   color: #0c0c0c;
   border: none;
+  display: flex;
+  margin: auto;
+  margin-top: 64px;
 }
 
 .container {
@@ -347,7 +350,6 @@ body {
   margin-left: 630px;
 }
 .menu .menu-title {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 64px;
   line-height: 130%;
@@ -358,25 +360,73 @@ body {
 }
 .menu .detailed-menu {
   display: flex;
+  justify-content: center;
+  margin-top: 64px;
 }
-.menu .detailed-menu .menu__list-link,
-.menu .detailed-menu .menu-cost {
+.menu .detailed-menu .info-menu {
+  margin-right: 32px;
+}
+.menu .detailed-menu .info-menu .detailed-menu-title {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.menu .detailed-menu .info-menu .menu__list-item {
+  width: 412px;
+  height: 66px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.menu .detailed-menu .info-menu .menu__list-item .menu__list-link,
+.menu .detailed-menu .info-menu .menu__list-item .menu-cost {
   font-weight: 700;
   font-size: 23px;
   line-height: 130%;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   color: #dcca87;
+  height: 30px;
 }
-.menu .detailed-menu .menu-cost {
+.menu .detailed-menu .info-menu .menu__list-item .menu-cost {
   color: #fff;
 }
-.menu .detailed-menu .menu-liter {
+.menu .detailed-menu .info-menu .menu__list-item .menu__list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: context-menu;
+}
+.menu .detailed-menu .info-menu .menu__list-item .menu__list-link::after {
+  content: "";
+  display: block;
+  width: 119px;
+  height: 1px;
+  background: #fafafa;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.menu .detailed-menu .info-menu .menu__list-item .menu-liter {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 175%;
   letter-spacing: 0.04em;
   text-align: center;
+  color: #aaa;
+}
+.menu .detailed-menu .cocktails {
+  margin-left: 32px;
+}
+.menu .detailed-menu .cocktails .menu-ingredients {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
   color: #aaa;
 }/*# sourceMappingURL=main.css.map */
