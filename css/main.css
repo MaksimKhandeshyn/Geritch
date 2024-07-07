@@ -116,6 +116,11 @@ body {
   align-items: center;
 }
 
+.chef-container {
+  display: flex;
+  align-items: center;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -429,4 +434,131 @@ body {
   line-height: 175%;
   letter-spacing: 0.04em;
   color: #aaa;
+}
+
+.chef {
+  background: url("../../images/background-geritch.jpg") no-repeat;
+  padding-top: 128px;
+  padding-bottom: 30px;
+}
+.chef .chef-img {
+  margin-right: 100px;
+}
+.chef .position,
+.chef .chef-title {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #fff;
+}
+.chef .chef-title {
+  font-weight: 600;
+  font-size: 64px;
+  color: #dcca87;
+  margin-bottom: 64px;
+}
+.chef .chef-description,
+.chef .chef-position {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #aaa;
+}
+.chef .chef-name {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+  margin-top: 64px;
+}
+.chef .chef-position {
+  font-style: normal;
+  margin-bottom: 64px;
+}
+
+.customers {
+  background: #000;
+  padding-top: 140px;
+  padding-bottom: 160px;
+  position: relative;
+}
+.customers .logo-icon {
+  position: absolute;
+  bottom: 900px;
+  right: 290px;
+}
+.customers .title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.customers .title-box .customers-title {
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: center;
+}
+.customers .customers-subtitle {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #dcca87;
+  text-align: center;
+}
+.customers .customers-list {
+  margin-top: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.customers .customers-list .customers__list-item {
+  display: flex;
+  flex-basis: calc((100% - 30px) / 2);
+  margin-bottom: 64px;
+  position: relative;
+}
+.customers .customers-list .customers__list-item:nth-child(odd) {
+  margin-right: 30px;
+}
+.customers .customers-list .customers__list-item .customers-icon {
+  position: absolute;
+  top: 170px;
+  left: 160px;
+}
+.customers .customers-list .customers__list-item .customers__list-box {
+  margin-left: 30px;
+}
+.customers .customers-list .customers__list-item .customers__list-box .customers__list-comment {
+  font-family: "Open Sans", sans-serif;
+  width: 420px;
+  font-style: italic;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #aaa;
+  margin-bottom: 16px;
+}
+.customers .customers-list .customers__list-item .customers__list-box .customers__list-name {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+.customers .customers-list .customers__list-item .customers__list-box .customers__list-position {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #f5efdb;
 }/*# sourceMappingURL=main.css.map */
