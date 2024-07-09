@@ -589,10 +589,17 @@
           <button class="footer-btn">Subscribe</button>
         </form>
         <ul class="footer-list">
+
           <li class="footer-item">
-            <h3 class="list__item-title">Contact Us</h3>
+            <h3 class="list__item-title contact-us">Contact Us</h3>
             <address class="list__item-contacts">
-              9 W 53rd St, New York, NY 10019, USA
+              <a
+                href="https://maps.app.goo.gl/fyinkoxKUEd4GdsX7"
+                class="list__item-contacts link-address"
+                target="_blank"
+              >
+                9 W 53rd St, New York, NY 10019, USA
+              </a>
             </address>
             <a href="tel:+12123441230" class="list__item-contacts"
               >+1 212-344-1230</a
@@ -608,18 +615,44 @@
               "The best way to find yourself is to lose yourself in the services
               of other"
             </p>
+            <svg class="footer-icon" width="40" height="9">
+              <use href="./icons/symbol-defs.svg#icon-spoon"></use>
+            </svg>
+            <ul class="footer__item-list">
+              <li class="footer__item-item">
+                <a href="#" class="footer__media-link">
+                  <svg class="footer__social-media" width="24" height="24">
+                    <use href="./icons/symbol-defs.svg#icon-u_facebook-f"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item-item">
+                <a href="#" class="footer__media-link">
+                  <svg class="footer__social-media" width="24" height="24">
+                    <use href="./icons/symbol-defs.svg#icon-twitter-geritch"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__item-item">
+                <a href="#" class="footer__media-link">
+                  <svg class="footer__social-media"  width="24" height="24">
+                    <use href="./icons/symbol-defs.svg#icon-instagramm"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </li>
 
           <li class="footer-item">
-            <h2 class="list__item-title">Working Hours</h2>
+            <h2 class="list__item-title working-ours-title">Working Hours</h2>
             <ul class="item-list">
               <li class="item-list__item">
                 Monday-Friday:
                 <time class="item-list__item work-hours">08:00am -12:00am</time>
               </li>
-              <li class="item-list__item">
+              <li class="item-list__item day-opening" >
                 Saturday-Sunday:
-                <time class="item-list__time">07:00am -11:00pm</time>
+                <time class="item-list__time work-hours">07:00am -11:00pm</time>
               </li>
             </ul>
           </li>

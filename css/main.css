@@ -275,6 +275,30 @@ body {
   margin-top: 128px;
   display: flex;
 }
+.footer .footer-list .footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-list .footer-item .contact-us {
+  text-align: center;
+}
+.footer .footer-list .footer-item:nth-child(2) {
+  margin-left: 126px;
+  margin-right: 196px;
+}
+.footer .footer-list .footer-item .footer__item-list {
+  display: flex;
+}
+.footer .footer-list .footer-item .footer__item-list .footer__item-item {
+  margin-right: 16px;
+  margin-top: 16px;
+}
+.footer .footer-list .footer-item .footer__item-list .footer__media-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
 .footer .footer-list .list__item-title {
   font-weight: 400;
   font-size: 32px;
@@ -289,19 +313,39 @@ body {
   color: #aaa;
   font-style: normal;
 }
+.footer .footer-list .list__item-contacts:first-child {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.footer .footer-list .link-address {
+  width: 306px;
+  display: block;
+}
 .footer .footer-list .quote {
   font-family: "Open Sans", sans-serif;
   line-height: 1.75;
   letter-spacing: 0.04em;
   color: #fff;
+  width: 438px;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 16px;
 }
-.footer .footer-list .item-list__item {
+.footer .footer-list .item-list .item-list__item {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
   letter-spacing: 0.04em;
   color: #aaa;
+  margin-top: 8px;
+}
+.footer .footer-list .item-list .item-list__item .day-opening {
+  text-align: center;
 }
 
 .hero {

@@ -67,6 +67,30 @@
   .footer-list {
     margin-top: 128px;
     display: flex;
+    .footer-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .contact-us {
+        text-align: center;
+      }
+      &:nth-child(2) {
+        margin-left: 126px;
+        margin-right: 196px;
+      } 
+      .footer__item-list {
+        display: flex;
+        .footer__item-item {
+          margin-right: 16px;
+          margin-top: 16px;
+        }
+        .footer__media-link {
+          display: block;
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
     .list__item-title {
       font-weight: 400;
       font-size: 32px;
@@ -80,20 +104,42 @@
       letter-spacing: 0.04em;
       color: #aaa;
       font-style: normal;
+      &:first-child {
+        margin-top: 24px;
+        margin-bottom: 16px;
+      }
+    }
+    .link-address {
+      width: 306px;
+      display: block;
     }
     .quote {
       font-family: $second-family;
       line-height: 1.75;
       letter-spacing: 0.04em;
       color: $white-color;
+      width: 438px;
+      text-align: center;
+      margin-top: 32px;
+      margin-bottom: 16px;
     }
-    .item-list__item {
-      font-family: $second-family;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.75;
-      letter-spacing: 0.04em;
-      color: #aaa;
+    .item-list {
+      .item-list__item {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-family: $second-family;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: 0.04em;
+        color: #aaa;
+        margin-top: 8px;
+        .day-opening {
+          text-align: center;
+        }
+      }
     }
   }
 }
